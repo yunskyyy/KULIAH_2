@@ -1,5 +1,13 @@
-import 'package:dart_lessons/dart_lessons.dart' as dart_lessons;
+void main () {
+  var name = 'Yunan';
+  print('Hello, $name!');
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_lessons.calculate()}!');
+  dynamic angka = "ini tipe data dynamic";
+  num angka2 = 2.0 ;
+  double angka3 = 2.5 ;
+
+
+  print(angka);
+  print(angka2);
+  print(angka3);
 }
